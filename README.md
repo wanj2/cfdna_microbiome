@@ -11,7 +11,7 @@ This repository contains code for processing cfDNA microbial sequence data using
 
 `run.p1.bam_input.sh` takes aligned BAMs, generates QC metrics, converts to raw FASTQ and trims reads.
 
-`run.p2.kraken.sh' takes trimmed FASTQ files and runs Kraken on these reads, to generate counts of each microbial genus present in each sample. For cfDNA input, FLASH is run to reduce error rates in the overlapping region of mate pairs.
+`run.p2.kraken.sh` takes trimmed FASTQ files and runs Kraken on these reads, to generate counts of each microbial genus present in each sample. For cfDNA input, FLASH is run to reduce error rates in the overlapping region of mate pairs.
 
 ### Input
 Aligned BAMs to human genome (including unmapped reads). If FASTQ files are already available, then apply Kraken directly.
