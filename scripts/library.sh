@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #=======================
-# PATCH WGS library
+# cfdna microbiome library
 #
 # Author: Jonathan C M Wan
 #=======================
@@ -9,13 +9,11 @@
 # modules
 module load apps/bwa/0.7.17-singularity
 module load apps/bedtools2/2.29.0
-#module load apps/samtools/1.10.0-singularity
 module load apps/openjdk
 module load apps/trimmomatic/0.39
 module load apps/fastqc/0.11.8
 
 # tools
-SPADES_PATH="/scratch/groups/cancerbioinformatics/cancer_microbiome/tools/SPAdes-3.14.1-Linux/bin/spades.py"
 KRAKEN_PATH="/scratch/groups/cancerbioinformatics/cancer_microbiome/tools/kraken2-2.0.8-beta/kraken2"
 SEQTK_PATH="/scratch/groups/cancerbioinformatics/cancer_microbiome/tools/seqtk/seqtk"
 CENTRIFUGE_PATH="/scratch/groups/cancerbioinformatics/cancer_microbiome/tools/centrifuge/centrifuge" # have added cenrifuge folder to path
