@@ -15,8 +15,6 @@ module load apps/fastqc/0.11.8
 
 # tools
 KRAKEN_PATH="/scratch/groups/cancerbioinformatics/cancer_microbiome/tools/kraken2-2.0.8-beta/kraken2"
-SEQTK_PATH="/scratch/groups/cancerbioinformatics/cancer_microbiome/tools/seqtk/seqtk"
-CENTRIFUGE_PATH="/scratch/groups/cancerbioinformatics/cancer_microbiome/tools/centrifuge/centrifuge" # have added cenrifuge folder to path
 PICARD_PATH="/scratch/groups/cancerbioinformatics/software/picard_2.25.5/picard.jar"
 TRIMMOMATIC_PATH="/scratch/users/k2034906/software/Trimmomatic-0.39/trimmomatic-0.39.jar"
 FLASH_PATH="/scratch/users/k2034906/software/FLASH-1.2.11-Linux-x86_64/flash"
