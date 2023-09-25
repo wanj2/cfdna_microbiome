@@ -15,7 +15,7 @@
 mkdir output
 mkdir temp
 
-SCRIPT=/users/k2034906/microbiome/PATCH-pipeline-main/WGS/scripts/p1.PATCH-WGS-pipeline.sh
+SCRIPT=/users/k2034906/cfdna_microbiome/scripts/p1.cfdna_microbiome.sh
 
 echo "running p1 - preprocessing of aligned bams"
 sleep 10

@@ -10,7 +10,7 @@
 mkdir output
 mkdir temp
 
-SCRIPT=/users/k2034906/microbiome/PATCH-pipeline-main/WGS/scripts/p2.PATCH-WGS-pipeline.sh
+SCRIPT=/users/k2034906/cfdna_microbiome/scripts/p2.cfdna_microbiome.sh
 
 echo "running p2 - kraken +/- FLASH"
 echo "fastq.gz files need to be in temp to be run"
